@@ -1,8 +1,8 @@
 # 50fh
 
 
-## 三角形重心、垂心、外心及內心(II) 
-### 93 BYTES - CMPLX
+## CG01 - 三角形重心、垂心、外心及內心(II) 
+### CG01A - 93 BYTES - CMPLX
 
 http://webcal.freehostia.com/casio.fx-50FH/four_centre_2.htm
 
@@ -14,8 +14,8 @@ http://webcal.freehostia.com/casio.fx-50FH/four_centre_2.htm
 
 Ans - i Ans tan( .5arg(D: C + Ans ( .5∠ arg(B - C 　
 
-## 三角形重心、垂心、內心、外心及三點求圓 
-### 140 BYTES - CMPLX
+## CG02 - 三角形重心、垂心、內心、外心及三點求圓 
+### CG01B - 140 BYTES - CMPLX
 
 ?→A: ?→B: ?→C: A + B + C→M: M÷3◢
 
@@ -29,7 +29,7 @@ Ans - i Ans tan( .5arg(D: C + Ans ( .5∠ arg(B - C 　
 
 ?→M: ?→D: -2M◢ Abs(M)²-D²
 
-### Example
+### CG01B - Example
 ![image](https://user-images.githubusercontent.com/44498510/142735971-267da7fb-e114-46ff-a900-deeeec3dc822.png)
 
 ![image](https://user-images.githubusercontent.com/44498510/142735994-14e34bf1-4988-4020-b283-fc1c34f23a77.png)
@@ -39,9 +39,9 @@ Ans - i Ans tan( .5arg(D: C + Ans ( .5∠ arg(B - C 　
 - M=100-60i; D=100; -200+120i, 3600
 - M=X=58.8+4.29i; D=Y=20.86; -117.6-8.58i, 3043.7
 
-## 解三角形(II)
+## G01 - 解三角形(II)
 
-### 197 BYTES
+### G01 - 197 BYTES
 
 http://webcal.freehostia.com/casio.fx-50FH/solve_triangle2.htm
 
@@ -57,11 +57,11 @@ YD - A→C: Ans>0 => Goto 0: WhileEnd : cos⁻¹( D => Asin(B+C) ÷ sin(C→C:
 
 -C◢ Pol(Ans + Acos(B , -Asin(B: Y◢ X◢ π<sup>r</sup> - B - Y◢ . 5ACsin(B
 
-## 一元三次方程
+## A01 - 一元三次方程
 
 
-### 2A 126 BYTES - COMP; 實數系數; 實數根
-http://webcal.freehostia.com/casio.fx-50FH/cubic2.htm
+### A01A - 126 BYTES - COMP; 實數系數; 實數根
+http://webcal.freehostia.com/casio.fx-50FH/cubic2.htm (2A)
 
 ?→A: ?→B: ?→C: ?→M: - B┘(3A→B: BC M+:
 
@@ -73,8 +73,8 @@ If Ans>0: Then √( Ans M+: B + ³√( M ) + ³√( M - 2Ans◢ Lbl IfEnd:
 
 B - C cos( M + 60°◢ B - C cos( M - 60°
 
-### 1B 130 BYTES - COMP; 實數系數; 實數根
-http://webcal.freehostia.com/casio.fx-50FH/cubic1.htm
+### A01B - 130 BYTES - COMP; 實數系數; 實數根
+http://webcal.freehostia.com/casio.fx-50FH/cubic1.htm (1B)
 
 ?→A: ?→B: ?→C: ?→M: - B┘(3A→B: BCM+: C┘A→C:
 
@@ -86,8 +86,8 @@ If 0>Ans: Then 2 √( D ) cos( 3⁻¹ cos⁻¹( M÷√( D³: Else √( Ans M+:
 
 M┘2 + √(AM - C + M²┘4 M- →B◢ M
 
-### 1C 123 bytes - CMPLX; 實數系數; 複數根
-http://webcal.freehostia.com/casio.fx-50FH/cubic1.htm
+### A01C - 123 bytes - CMPLX; 實數系數; 複數根
+http://webcal.freehostia.com/casio.fx-50FH/cubic1.htm (1C)
 
 ?→A: ?→B: ?→C: ?→D:
 
@@ -101,8 +101,8 @@ Else 2 ³√(Abs( M ) ) cos( 3⁻¹arg( M: IfEnd:
 
 Ans + √(- 3 Ans² - BM┘A - C┘A M-◢ M
 
-### 1A 126 BYTES - CMPLX; 實數系數; 複數根
-http://webcal.freehostia.com/casio.fx-50FH/cubic1.htm
+### A01D - 126 BYTES - CMPLX; 實數系數; 複數根
+http://webcal.freehostia.com/casio.fx-50FH/cubic1.htm (1A)
 
 ?→A: ?→B: - B┘(3A→B: ?→C: C┘A→C: ?→M:
 
@@ -114,9 +114,9 @@ Else 2 ³√(Abs( M ) ) cos ( 3⁻¹arg( M: IfEnd: Ans + B→A◢
 
 3B - Ans→M: M┘2 + √(AM - C + M²┘4 M- →B◢ M
 
-### 3A 119 BYTES - CMPLX; 實數系數; 複數根
+### A01E - 119 BYTES - CMPLX; 實數系數; 複數根
 
-http://webcal.freehostia.com/casio.fx-50FH/cubic4.htm
+http://webcal.freehostia.com/casio.fx-50FH/cubic4.htm (3A)
 
 ?→A: ?→B: ?→C: ?→D:
 
@@ -126,9 +126,9 @@ Ans - D - 2Ans(Ans=D→D: ³√( Abs(Ans => Ans∠(3⁻¹ arg(D) + 5!° ( π<sup
 
 While 1: Abs( D => D + C┘D: (Ans - B)┘(3A◢ 1∠5!°D→D: WhileEnd
 
-### 3B 121 BYTES - CMPLX; 複數系數; 複數根
+### A01F - 121 BYTES - CMPLX; 複數系數; 複數根
 
-http://webcal.freehostia.com/casio.fx-50FH/cubic4.htm
+http://webcal.freehostia.com/casio.fx-50FH/cubic4.htm (3B)
 
 ?→A: ?→B: ?→C: ?→D:
 
