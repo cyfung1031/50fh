@@ -2,7 +2,7 @@
 
 
 ## 三角形重心、垂心、外心及內心(II) 
-### 93 BYTES
+### 93 BYTES - CMPLX
 
 http://webcal.freehostia.com/casio.fx-50FH/four_centre_2.htm
 
@@ -15,7 +15,7 @@ http://webcal.freehostia.com/casio.fx-50FH/four_centre_2.htm
 Ans - i Ans tan( .5arg(D: C + Ans ( .5∠ arg(B - C 　
 
 ## 三角形重心、垂心、內心、外心及三點求圓 
-### 140 BYTES
+### 140 BYTES - CMPLX
 
 ?→A: ?→B: ?→C: A + B + C→M: M÷3◢
 
@@ -56,6 +56,89 @@ Pol( B tan(90° - A - C , -B ) sin(A◢ Y◢ X sin(C◢ - . 5AnsBsin(A◢
 YD - A→C: Ans>0 => Goto 0: WhileEnd : cos⁻¹( D => Asin(B+C) ÷ sin(C→C:
 
 -C◢ Pol(Ans + Acos(B , -Asin(B: Y◢ X◢ π<sup>r</sup> - B - Y◢ . 5ACsin(B
+
+## 一元三次方程
+
+
+### 2A 126 BYTES - COMP; 實數系數; 實數根
+http://webcal.freehostia.com/casio.fx-50FH/cubic2.htm
+
+?→A: ?→B: ?→C: ?→M: - B┘(3A→B: BC M+:
+
+B³ - M┘(2A→M: B² - C┘(3A→C: M² - C³:
+
+If Ans>0: Then √( Ans M+: B + ³√( M ) + ³√( M - 2Ans◢ Lbl IfEnd:
+
+2√( C→C: C => 3⁻¹ cos⁻¹( 8M÷C³→M: B + C cos(M◢
+
+B - C cos( M + 60°◢ B - C cos( M - 60°
+
+### 1B 130 BYTES - COMP; 實數系數; 實數根
+http://webcal.freehostia.com/casio.fx-50FH/cubic1.htm
+
+?→A: ?→B: ?→C: ?→M: - B┘(3A→B: BCM+: C┘A→C:
+
+B³ - M┘(2A→M: B² - C┘3→D: M² - Ans³:
+
+If 0>Ans: Then 2 √( D ) cos( 3⁻¹ cos⁻¹( M÷√( D³: Else √( Ans M+:
+
+³√(M )+ ³√( M - 2 Ans: IfEnd: Ans + B→A◢ 3B - Ans→M:
+
+M┘2 + √(AM - C + M²┘4 M- →B◢ M
+
+### 1C 123 bytes - CMPLX; 實數系數; 複數根
+http://webcal.freehostia.com/casio.fx-50FH/cubic1.htm
+
+?→A: ?→B: ?→C: ?→D:
+
+9A(BC - 3AD)┘2 - B³→M: √( M² + ( 3AC - B²)³ M+:
+
+If Ans=Conig( Ans: Then ³√( M) + ³√( M - 2Ans:
+
+Else 2 ³√(Abs( M ) ) cos( 3⁻¹arg( M: IfEnd:
+
+(Ans - B)┘(3A◢ - B┘A - Ans→M: M┘2:
+
+Ans + √(- 3 Ans² - BM┘A - C┘A M-◢ M
+
+### 1A 126 BYTES - CMPLX; 實數系數; 複數根
+http://webcal.freehostia.com/casio.fx-50FH/cubic1.htm
+
+?→A: ?→B: - B┘(3A→B: ?→C: C┘A→C: ?→M:
+
+B³ - BAns┘2 - M┘(2A→M: √( ( C┘3 - B²)³ + Ans² M+:
+
+If Ans=Conig( Ans: Then ³√( M) + ³√( M - 2Ans:
+
+Else 2 ³√(Abs( M ) ) cos ( 3⁻¹arg( M: IfEnd: Ans + B→A◢
+
+3B - Ans→M: M┘2 + √(AM - C + M²┘4 M- →B◢ M
+
+### 3A 119 BYTES - CMPLX; 實數系數; 複數根
+
+http://webcal.freehostia.com/casio.fx-50FH/cubic4.htm
+
+?→A: ?→B: ?→C: ?→D:
+
+B³ - 9┘2A( BC - 3DA→D: B² - 3AC→C:  √( D² - C³:
+
+Ans - D - 2Ans(Ans=D→D: ³√( Abs(Ans => Ans∠(3⁻¹ arg(D) + 5!° ( π<sup>r</sup> = arg( D→D:
+
+While 1: Abs( D => D + C┘D: (Ans - B)┘(3A◢ 1∠5!°D→D: WhileEnd
+
+### 3B 121 BYTES - CMPLX; 複數系數; 複數根
+
+http://webcal.freehostia.com/casio.fx-50FH/cubic4.htm
+
+?→A: ?→B: ?→C: ?→D:
+
+B³ - 9┘2A( BC - 3DA→D: B² - 3AC→C: 
+
+√( Abs( D² - C³ => Ans∠( . 5 arg(D² - C³: Ans - D - 2Ans(Ans=D→D: 
+
+³√( Abs(Ans => Ans∠(3⁻¹ arg(D→D:
+
+While 1: Abs( D => D + C┘D: (Ans - B)┘(3A◢ 1∠5!°D→D: WhileEnd
 
 
 ## Symbols
