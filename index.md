@@ -1,8 +1,8 @@
 # 50fh
 
 
-## CG01 - 三角形重心、垂心、外心及內心(II) 
-### CG01A - 93 BYTES - CMPLX
+## CG01 - 三角形四心
+### CG01A - 93 BYTES - CMPLX; 重心、垂心、外心及內心(II)
 
 http://webcal.freehostia.com/casio.fx-50FH/four_centre_2.htm
 
@@ -14,8 +14,7 @@ http://webcal.freehostia.com/casio.fx-50FH/four_centre_2.htm
 
 Ans - i Ans tan( .5arg(D: C + Ans ( .5∠ arg(B - C 　
 
-## CG02 - 三角形重心、垂心、內心、外心及三點求圓 
-### CG01B - 140 BYTES - CMPLX
+### CG01B - 140 BYTES - CMPLX; 三角形重心、垂心、內心、外心及三點求圓 
 
 ?→A: ?→B: ?→C: A + B + C→M: M÷3◢
 
