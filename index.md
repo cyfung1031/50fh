@@ -39,7 +39,23 @@ Ans - i Ans tan( .5arg(D: C + Ans ( .5∠ arg(B - C 　
 - M=100-60i; D=100; -200+120i, 3600
 - M=X=58.8+4.29i; D=Y=20.86; -117.6-8.58i, 3043.7
 
+## 解三角形(II)
 
+### 197 BYTES
+
+http://webcal.freehostia.com/casio.fx-50FH/solve_triangle2.htm
+
+While 1: ?→A: ?→B: ?→C: 0>AB => Goto 0: B→X: - sin(C) ÷ sin(A→B:
+
+0>A => cos⁻¹( (A²+X²-C²)÷ ( 2AX→B: X→C: Lbl 0: 0>C→D: Abs(A◢
+
+Abs(B◢ 0>A => Break: D => πr - A - sin⁻¹( C⁻¹ Bsin(A→C: C◢
+
+Pol( B tan(90° - A - C , -B ) sin(A◢ Y◢ X sin(C◢ - . 5AnsBsin(A◢
+
+YD - A→C: Ans>0 => Goto 0: WhileEnd : cos⁻¹( D => Asin(B+C) ÷ sin(C→C:
+
+-C◢ Pol(Ans + Acos(B , -Asin(B: Y◢ X◢ π<sup>r</sup> - B - Y◢ . 5ACsin(B
 
 
 ## Symbols
