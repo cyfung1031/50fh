@@ -14,7 +14,7 @@ http://webcal.freehostia.com/casio.fx-50FH/four_centre_2.htm
 
 Ans - i Ans tan( .5arg(D: C + Ans ( .5∠ arg(B - C 　
 
-### CG01B - 140 BYTES - CMPLX; 三角形重心、垂心、內心、外心及三點求圓 
+### CG01B - 135 BYTES - CMPLX; 三角形重心、垂心、內心、外心及三點求圓 
 
 ?→A: ?→B: ?→C: A + B + C→M: M÷3◢
 
@@ -24,7 +24,7 @@ Ans - i Ans tan( .5arg(D: C + Ans ( .5∠ arg(B - C 　
 
 1 - i tan( .5arg(D: C + Ans Y∠ arg(B - C →X◢
 
-√( Abs(X - C)² - Abs(Y)²→Y: .5M M-◢ Abs(M-B→D:
+Y Abs( tan( .5arg(D →Y: .5M M-◢ Abs(M-B→D:
 
 ?→M: ?→D: -2M◢ Abs(M)²-D²
 
